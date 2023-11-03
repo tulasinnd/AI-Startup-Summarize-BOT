@@ -2,7 +2,7 @@ import PyPDF2
 import streamlit as st
 st.set_page_config(layout="wide")
 import os
-os.environ["OPENAI_API_KEY"] ='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'
+os.environ["OPENAI_API_KEY"] =''
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.document_loaders import PyPDFLoader
